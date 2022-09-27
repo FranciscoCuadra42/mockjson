@@ -1,12 +1,11 @@
 {
     "Users": {
-         "id": { "int": { "min": 0, "max": 100 } } },
+         "id": { "int": { "min": 0, "max": 100 } },
          "role": {
             "string": [
                 "admin",
                 "user"
-            ]
-            
+            ]  
         },
         "email" : { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
         "name" :  { "regexp": "[A-Z][a-z]{5,10}" } }

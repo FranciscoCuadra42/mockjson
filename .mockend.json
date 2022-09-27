@@ -8,7 +8,7 @@
             ]  
         },
         "email" : { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
-        "name" :  { "regexp": "[A-Z][a-z]{5,10}" },
+        "name" :  { "regexp": "[A-Z][a-z]{5,10}" }
        
     }
 }
